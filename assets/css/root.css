@@ -1,0 +1,74 @@
+/* <----------------------------------------------------------- Media Quiries ----------------------------------------------------------------> */
+
+@media (max-width: 991.9px) {
+    .lg_view {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-image: url(../images/png/Hero_sec_back_img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; */
+        background: var(--black-color);
+        z-index: 4;
+    }
+
+    .menuicon {
+        z-index: 5;
+        margin-top: 10px;
+    }
+
+    .show {
+        left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .fs_lh_heading {
+        font-size: var(--fs-50) !important;
+        line-height: var(--lh-56) !important;
+    }
+
+    .fs_lh_hero_box {
+        font-size: var(--fs-50);
+        line-height: var(--lh-60);
+    }
+}
+
+@media (max-width: 576px) {
+    .fs_lh_change {
+        font-size: var(--fs-30) !important;
+        line-height: var(--lh-39) !important;
+    }
+
+    .fs_lh_hero_box {
+        font-size: var(--fs-30);
+        line-height: var(--lh-39);
+    }
+
+    .fs_lh_heading {
+        font-size: var(--fs-40) !important;
+        line-height: var(--lh-49) !important;
+    }
+
+    .fs_sub_text {
+        font-size: var(--fs-14) !important;
+        line-height: var(--lh-23) !important;
+    }
+
+    .fs_prop_box {
+        font-size: var(--fs-16) !important;
+        line-height: var(--lh-23) !important;
+    }
+
+    .fs_lh_some_heading {
+        font-size: var(--fs-36);
+        line-height: var(--lh-46);
+    }
+}
