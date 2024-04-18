@@ -628,11 +628,6 @@ a {
     padding-bottom: 38px;
 }
 
-.px_51px {
-    padding-right: 51px;
-    padding-left: 51px;
-}
-
 .py_12px {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -641,6 +636,7 @@ a {
 .mb_32px {
     margin-bottom: 32px;
 }
+
 
 /* <-----------------------------------------------------------btn changes ----------------------------------------------------------------> */
 
@@ -669,6 +665,7 @@ a {
 .cont_prop {
     position: relative;
     transform: translateY(-89px);
+    border-radius: 16px;
 }
 
 /* <----------------------------------------------------------- borders, before and after and Hover Effects ----------------------------------------------------------------> */
