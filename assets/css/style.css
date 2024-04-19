@@ -177,8 +177,8 @@
     padding-right: 12px;
 }
 
-.container_how_it_works {
-    max-width: 1130px;
+.container_948px {
+    max-width: 948px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12px;
@@ -586,6 +586,18 @@ a {
     background-position: center;
 }
 
+.back_gif {
+    background: var(--nav_btn_clr);
+}
+
+.play_back {
+    background: var(--nav_btn_clr);
+    width: 128px;
+    height: 34px;
+    padding: 4px 12px 4px 12px;
+    border-radius: 4px;
+}
+
 /* <----------------------------------------------------------- width and height ----------------------------------------------------------------> */
 
 .nav_title {
@@ -605,6 +617,11 @@ a {
     border-radius: 50%;
 }
 
+.max_w_tab_text {
+    max-width: 524px;
+    min-height: 110px;
+}
+
 /* <-----------------------------------------------------------spacings ----------------------------------------------------------------> */
 .py_29px {
     padding-top: 29px;
@@ -617,6 +634,11 @@ a {
 
 .gap_36px {
     gap: 36px;
+}
+
+.py_media_tab {
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .gap_10px {
@@ -666,6 +688,17 @@ a {
     position: relative;
     transform: translateY(-89px);
     border-radius: 16px;
+}
+
+.play_back {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+
+.pole_pos {
+    bottom: 16px;
+    left: 20px;
 }
 
 /* <----------------------------------------------------------- borders, before and after and Hover Effects ----------------------------------------------------------------> */
@@ -747,6 +780,14 @@ a {
 
 .nav_link:hover {
     opacity: 1 !important;
+}
+
+.brdr_rad {
+    border-radius: 16px;
+}
+
+.brdr_rad_gif {
+    border-radius: 6px;
 }
 
 /* <----------------------------------------------------------- z-indexes ----------------------------------------------------------------> */

@@ -70,6 +70,11 @@
     .mt_btn_media {
         margin-top: 20px;
     }
+
+    .max_w_tab_text {
+        max-width: 524px;
+        min-height: 0;
+    }
 }
 
 @media (min-width: 576px) {
