@@ -33,7 +33,7 @@ let tab_btn_3 = document.querySelector(".tab_btn_3");
 let text_change = document.querySelector(".changing_text");
 let tab_cont = document.querySelectorAll(".tab_cont");
 let tab_cont_1 = document.querySelector(".tab_cont");
-
+tab_cont_1.classList.add("full");
 
 tab_cont.forEach(item => {
     let btn = item.querySelector(".tab_btn");
