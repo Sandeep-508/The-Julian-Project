@@ -51,6 +51,7 @@
     --get_btn: #F36A3E;
     --nav_btn_clr: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
     --corona_sec_color: linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%);
+    --grant-text-color: #1A1A1A;
     --hover_box_corona: #CA99443D;
     /* font-family */
     --fm-poppins: "Poppins", sans-serif;
@@ -79,6 +80,7 @@
 
     /* font-size */
     --fs-10: 10px;
+    --fs-12: 12px;
     --fs-14: 14px;
     --fs-15: 15px;
     --fs-16: 16px;
@@ -291,6 +293,10 @@
 
 .fs-21 {
     font-size: var(--fs-21);
+}
+
+.fs-12 {
+    font-size: var(--fs-12);
 }
 
 .light_white_clr {
@@ -606,21 +612,21 @@ a {
 /* <----------------------------------------------------------- Backimages or BackColor ----------------------------------------------------------------> */
 
 .hero_back_img {
-    background-image: url(../images/png/Hero_sec_back_img.png);
+    background-image: url("../images/png/Hero_sec_back_img.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .timeline_back {
-    background-image: url(../images/png/timeline_back.png);
+    background-image: url("../images/png/timeline_back.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .pro_section {
-    background-image: url(../images/png/pro_sec_back_image.png);
+    background-image: url("../images/png/pro_sec_back_image.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -639,10 +645,14 @@ a {
 }
 
 .back_corona_image {
-    background-image: url(../images/png/corona_civica_back.png);
+    background-image: url("../images/png/corona_civica_back.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.grant_text_color {
+    color: var(--grant-text-color);
 }
 
 /* <----------------------------------------------------------- width and height ----------------------------------------------------------------> */
@@ -652,10 +662,25 @@ a {
     height: 55.85px;
 }
 
+.max_w_grant_text {
+    max-width: 338px;
+    min-height: 52px;
+    margin-left: 46px;
+}
+
+.bottom_box {
+    max-width: 432px;
+    min-height: 58px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4.63px;
+    box-shadow: 0px 0px 15.44px 3.09px #D8D8D840;
+    background: var(--color-white);
+}
+
 .rank_box {
     max-width: 223px;
     min-height: 144.14px;
-    background-image: url(../images/png/02.png);
+    background-image: url("../images/png/02.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -664,7 +689,7 @@ a {
 .rank_box_3 {
     max-width: 223px;
     min-height: 144.14px;
-    background-image: url(../images/png/03.png);
+    background-image: url("../images/png/03.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -673,7 +698,7 @@ a {
 .rank_box_2 {
     max-width: 223px;
     min-height: 144.14px;
-    background-image: url(../images/png/01.png);
+    background-image: url("../images/png/01.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -736,6 +761,10 @@ a {
 .my_120px {
     margin-top: 120px;
     margin-bottom: 120px;
+}
+
+.ps_30px {
+    padding-left: 30px;
 }
 
 .gap_12px {
@@ -804,6 +833,12 @@ a {
 /* <-----------------------------------------------------------btn changes ----------------------------------------------------------------> */
 
 .submit_btn {
+    background: var(--nav_btn_clr) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.lg_text {
     background: var(--nav_btn_clr) !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
@@ -1154,7 +1189,7 @@ ul {
         border-radius: 50%;
         width: 40px;
         height: 40px;
-        background-image: url(../images/png/timeline_dot_img.png);
+        background-image: url("../images/png/timeline_dot_img.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
