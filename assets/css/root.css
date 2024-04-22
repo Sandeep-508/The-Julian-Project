@@ -46,18 +46,23 @@
     }
 
     .min_h_110px {
-        min-height: 200px !important;
+        min-height: 150px !important;
         max-width: 1140px;
     }
 
     .pro_section .inner-container::after {
-        left: 150px !important;
+        left: 176px !important;
     }
 
     .pro_section .timeline-item {
         &::before {
             left: 131px !important;
         }
+    }
+
+    .pro_section .min_h_110px {
+        min-height: 122px !important;
+        max-width: 1140px;
     }
 }
 
@@ -115,8 +120,39 @@
         left: 145px !important;
     }
 
+    .pro_section .text_pos {
+        left: 185px !important;
+    }
+
     .min_h_110px {
-        min-height: 250px !important;
+        min-height: 170px !important;
+        max-width: 1140px;
+    }
+
+    .pro_section .inner-container::after {
+        left: 140px !important;
+    }
+
+    .pro_section .timeline-item {
+        &::before {
+            left: 126px !important;
+        }
+    }
+
+    .pro_section .min_h_110px {
+        min-height: 150px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .pro_section .timeline-item {
+        &::before {
+            left: 157px !important;
+        }
+    }
+
+    .pro_section .min_h_110px {
+        min-height: 122px !important;
         max-width: 1140px;
     }
 }
@@ -125,6 +161,12 @@
     .px_51px {
         padding-right: 51px !important;
         padding-left: 51px !important;
+    }
+
+    .pro_section .timeline-item {
+        &::after {
+            font-size: var(--fs-20) !important;
+        }
     }
 }
 
@@ -169,7 +211,7 @@
     }
 
     .min_h_110px {
-        min-height: 300px !important;
+        min-height: 270px !important;
         max-width: 1140px;
     }
 
@@ -191,5 +233,33 @@
 
     .pro_section .text_pos {
         left: 140px !important;
+    }
+
+    .pro_section .text_pos {
+        left: 180px !important;
+    }
+
+    .pro_section .min_h_110px {
+        min-height: 300px !important;
+    }
+
+    .pro_section .timeline-item {
+        &::after {
+            font-size: var(--fs-16) !important;
+        }
+    }
+
+    .pro_section .inner-container::after {
+        left: 115px !important;
+    }
+
+    .pro_section .timeline-item {
+        &::before {
+            left: 101px !important;
+        }
+    }
+
+    .pro_section .text_pos {
+        left: 153px !important;
     }
 }

@@ -619,6 +619,13 @@ a {
     background-position: center;
 }
 
+.pro_section {
+    background-image: url(../images/png/pro_sec_back_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .back_gif {
     background: var(--nav_btn_clr);
 }
@@ -724,6 +731,11 @@ a {
 .py_120px {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.my_120px {
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .gap_12px {
@@ -948,6 +960,11 @@ a {
     left: 51% !important;
 }
 
+.timeline_back .wd_change::after {
+    width: 264px !important;
+    left: 50% !important;
+}
+
 .submit_btn {
     background: transparent;
     border: none;
@@ -973,11 +990,29 @@ a {
     background: var(--color-white) !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: var(--color-white) !important;
-    z-index: 3;
+    z-index: 10;
+}
+
+.border_btm .svg_btn svg path {
+    fill: var(--nav_btn_clr) !important;
 }
 
 .border_btm:hover .svg_btn svg path {
     stroke: var(--color-white) !important;
+}
+
+.svg_btn {
+    width: 24px;
+    height: 24px;
+    /* background-color: white; */
+}
+
+.svg_btn svg {
+    z-index: 10 !important;
+}
+
+.svg_btn svg {
+    /* stroke: url(#paint0_linear_51195_1752); */
 }
 
 .nav_link::after {
@@ -1057,7 +1092,7 @@ ul {
     height: 100%;
     background: var(--coron_lg_color);
     top: 25px;
-    left: 150px;
+    left: 175px;
     z-index: 1;
 }
 
@@ -1067,6 +1102,10 @@ ul {
 
 .text_pos {
     left: 200px;
+}
+
+.pro_section .text_pos {
+    left: 230px;
 }
 
 .line_bottom {
@@ -1082,17 +1121,15 @@ ul {
     max-width: 1140px;
 }
 
-.pro_section .timeline-item {
-    &::before {
-        left: 131px !important;
-    }
+.pro_section .text_pos {
+    padding-right: 0;
 }
 
 .timeline-item {
     color: #ffffff;
     font-family: var(--fm);
     text-align: left;
-    padding-top: 31px;
+    padding-top: 19px;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
@@ -1149,21 +1186,9 @@ ul {
         left: 90px !important;
     }
 
-    .pro_section .timeline-item {
-        &::after {
-            font-size: var(--fs-20) !important;
-        }
-
-        &::before {
-            width: 30px !important;
-            height: 30px !important;
-            left: 97px !important;
-        }
-    }
-
-    .pro_section .inner-container::after {
+    /* .pro_section .inner-container::after {
         left: 110px !important;
-    }
+    } */
 }
 
 
