@@ -79,6 +79,12 @@
     .px_media {
         padding-right: 142px;
     }
+
+    .max_w_grant_text {
+        max-width: 338px;
+        min-height: 52px;
+        margin-left: 46px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -261,5 +267,14 @@
 
     .pro_section .text_pos {
         left: 153px !important;
+    }
+
+    .wd_change_2::after {
+        width: 280px !important;
+        left: 50% !important;
+    }
+
+    .fs_head_text {
+        font-size: var(--fs-20) !important;
     }
 }
