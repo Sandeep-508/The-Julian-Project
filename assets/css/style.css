@@ -609,6 +609,15 @@ a {
     color: var(--text-light-white-color);
 }
 
+.input_email {
+    outline: none;
+    border: 1px solid #FFFFFF29;
+    background: transparent;
+    padding-left: 20px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
 /* <----------------------------------------------------------- Backimages or BackColor ----------------------------------------------------------------> */
 
 .hero_back_img {
@@ -811,11 +820,19 @@ a {
     padding-bottom: 29px;
 }
 
+.pt_footer_media {
+    padding-top: 84px;
+}
+
 .p_accord {
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 18px;
     padding-bottom: 18px;
+}
+
+.mt_10px {
+    margin-top: 10px;
 }
 
 .mt_24px {
@@ -1123,9 +1140,11 @@ a {
     mask-composite: exclude;
     pointer-events: none;
 }
-.disp_text{
+
+.disp_text {
     display: none;
 }
+
 .accord_border {
     position: relative;
 }

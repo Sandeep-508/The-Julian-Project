@@ -199,6 +199,14 @@
     .ps_20px {
         padding-left: 20px;
     }
+
+    .pe_38px {
+        padding-right: 38px;
+    }
+
+    .ps_33px {
+        padding-left: 33px;
+    }
 }
 
 @media (min-width: 576px) {
