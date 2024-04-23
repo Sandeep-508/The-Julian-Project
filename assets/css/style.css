@@ -618,6 +618,13 @@ a {
     background-position: center;
 }
 
+.back_history {
+    background-image: url("../images/png/second_tab_section_back_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .timeline_back {
     background-image: url("../images/png/timeline_back.png");
     background-repeat: no-repeat;
@@ -757,7 +764,7 @@ a {
 }
 
 .tab_cont {
-    max-width: 485px;
+    /* max-width: 485px; */
     min-height: 128px;
     border-radius: 8px;
 }
@@ -795,8 +802,34 @@ a {
     padding-bottom: 29px;
 }
 
+.py_history {
+    padding-top: 125px;
+    padding-bottom: 156px;
+}
+
+.py_130px {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.pb_64px {
+    padding-bottom: 64px;
+}
+
+.mb_117px {
+    margin-bottom: 117px;
+}
+
 .p_slider_media {
     padding: 40px;
+}
+
+.pe_29px {
+    padding-right: 41px;
+}
+
+.ps_29px {
+    padding-left: 41px;
 }
 
 .top_box {
@@ -1061,6 +1094,10 @@ a {
     mask-composite: exclude;
     pointer-events: none;
     transition: all 300ms linear;
+}
+
+.border_top {
+    border: 1px solid #FFFFFF52;
 }
 
 .top_box::after {
@@ -1338,9 +1375,13 @@ ul {
     height: 1px;
 }
 
-.min_h_110px {
-    min-height: 110px;
+.min_h_media {
+    min-height: 131px;
     max-width: 1140px;
+}
+
+.changed_h {
+    min-height: 100px;
 }
 
 .pro_section .text_pos {

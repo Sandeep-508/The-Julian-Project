@@ -45,8 +45,8 @@
         display: none !important;
     }
 
-    .min_h_110px {
-        min-height: 150px !important;
+    .min_h_media {
+        min-height: 130px !important;
         max-width: 1140px;
     }
 
@@ -60,16 +60,21 @@
         }
     }
 
-    .pro_section .min_h_110px {
-        min-height: 122px !important;
+    .pro_section .min_h_media {
+        min-height: 131px !important;
         max-width: 1140px;
+    }
+
+    .px_max_lg_0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 }
 
 
 @media (min-width: 992px) {
     .min-vh-lg-100 {
-        min-height: 100vh;
+        min-height: 91vh;
     }
 
     .mt_btn_media {
@@ -138,7 +143,7 @@
         left: 185px !important;
     }
 
-    .min_h_110px {
+    .min_h_media {
         min-height: 170px !important;
         max-width: 1140px;
     }
@@ -153,7 +158,7 @@
         }
     }
 
-    .pro_section .min_h_110px {
+    .pro_section .min_h_media {
         min-height: 150px !important;
     }
 }
@@ -174,7 +179,7 @@
         }
     }
 
-    .pro_section .min_h_110px {
+    .pro_section .min_h_media {
         min-height: 122px !important;
         max-width: 1140px;
     }
@@ -238,7 +243,7 @@
         margin-bottom: 140px !important;
     }
 
-    .min_h_110px {
+    .min_h_media {
         min-height: 270px !important;
         max-width: 1140px;
     }
@@ -267,7 +272,7 @@
         left: 180px !important;
     }
 
-    .pro_section .min_h_110px {
+    .pro_section .min_h_media {
         min-height: 300px !important;
     }
 
