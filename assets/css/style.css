@@ -669,6 +669,15 @@ a {
     height: 55.85px;
 }
 
+.min_h_media_change {
+    min-height: 122px;
+}
+
+.max_w_text_faq {
+    max-width: 730px;
+    min-height: 52px;
+}
+
 .slick-slide>div {
     max-width: 1000px !important;
 }
@@ -800,6 +809,22 @@ a {
 .py_29px {
     padding-top: 29px;
     padding-bottom: 29px;
+}
+
+.p_accord {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.mt_24px {
+    margin-top: 24px;
+}
+
+.py_faq {
+    padding-top: 150px;
+    padding-bottom: 84px;
 }
 
 .py_history {
@@ -1080,6 +1105,46 @@ a {
     pointer-events: none;
 }
 
+.tabs.appear {
+    position: relative;
+}
+
+.tabs.appear::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    /* border-radius: 16px; */
+    padding-right: 8px;
+    background: var(--nav_btn_clr);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+.disp_text{
+    display: none;
+}
+.accord_border {
+    position: relative;
+}
+
+.accord_border::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    padding: 1px;
+    background: var(--nav_btn_clr);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
 .tab_cont::after {
     content: "";
     position: absolute;
@@ -1097,7 +1162,11 @@ a {
 }
 
 .border_top {
-    border: 1px solid #FFFFFF52;
+    border-top: 1px solid #FFFFFF52;
+}
+
+.border_bottom {
+    border-bottom: 1px solid #FFFFFF52;
 }
 
 .top_box::after {

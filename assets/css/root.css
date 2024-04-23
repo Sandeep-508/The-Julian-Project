@@ -161,6 +161,14 @@
     .pro_section .min_h_media {
         min-height: 150px !important;
     }
+
+    .back_history {
+        background-position: left !important;
+    }
+
+    .min_h_media_change {
+        min-height: 240px !important;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -182,6 +190,14 @@
     .pro_section .min_h_media {
         min-height: 122px !important;
         max-width: 1140px;
+    }
+
+    .pe_20px {
+        padding-right: 20px;
+    }
+
+    .ps_20px {
+        padding-left: 20px;
     }
 }
 
@@ -311,5 +327,9 @@
 
     .ms_12px {
         margin-left: 12px;
+    }
+
+    .min_h_media_change {
+        min-height: 400px !important;
     }
 }
