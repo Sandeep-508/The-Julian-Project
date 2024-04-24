@@ -1456,7 +1456,7 @@ ul {
     background: var(--coron_lg_color);
     top: 25px;
     left: 128px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .pro_section .inner-container::after {
@@ -1467,7 +1467,7 @@ ul {
     background: var(--coron_lg_color);
     top: 25px;
     left: 175px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .pt_31px {
@@ -1571,6 +1571,11 @@ ul {
 
 
 /* TIMELINE end */
+
+/* <----------------------------------------------------------- AOS ----------------------------------------------------------------> */
+.overflow-X-hidden {
+    overflow-x: hidden !important;
+}
 
 /* <----------------------------------------------------------- scroll to top ----------------------------------------------------------------> */
 
