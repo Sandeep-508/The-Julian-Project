@@ -678,6 +678,19 @@ a {
     height: 55.85px;
 }
 
+.footer_flow {
+    width: 32px;
+    height: 32px;
+    padding: 5px 0px 0px 0px;
+    border-radius: 99px;
+    background: var(--nav_btn_clr);
+}
+
+.svgs_box {
+    width: 128px;
+    height: 32px;
+}
+
 .min_h_media_change {
     min-height: 122px;
 }
@@ -822,6 +835,10 @@ a {
 
 .pt_footer_media {
     padding-top: 84px;
+}
+
+.mt_22px {
+    margin-top: 22px;
 }
 
 .p_accord {
