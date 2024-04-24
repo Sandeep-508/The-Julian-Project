@@ -89,6 +89,13 @@
         padding-top: 100px !important;
         padding-bottom: 0 !important;
     }
+
+    .hero_back_img {
+        background-image: url(../images/png/hero_max_pic.png) !important;
+        background-position: center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
 }
 
 
@@ -116,10 +123,22 @@
     }
 }
 
+@media (max-width: 768.9px) {
+    .pro_section .timeline-item {
+        &::before {
+            left: 126px !important;
+        }
+    }
+}
+
 @media (max-width: 768px) {
     .fs_lh_heading {
         font-size: var(--fs-50) !important;
         line-height: var(--lh-56) !important;
+    }
+
+    .bottom_image_pos {
+        opacity: 20% !important;
     }
 
     .fs_lh_hero_box {
@@ -147,8 +166,8 @@
         transition: all 300ms linear;
     }
 
-    .opa_50 {
-        opacity: 50%;
+    .opa_20 {
+        opacity: 20%;
     }
 
     .p_slider_media {
@@ -178,12 +197,6 @@
 
     .pro_section .inner-container::after {
         left: 140px !important;
-    }
-
-    .pro_section .timeline-item {
-        &::before {
-            left: 126px !important;
-        }
     }
 
     .pro_section .min_h_media {
@@ -232,7 +245,7 @@
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 768.9px) {
     .pro_section .timeline-item {
         &::before {
             left: 157px !important;
@@ -420,5 +433,9 @@
 
     .pb_max_sm {
         padding-bottom: 24px !important;
+    }
+
+    .mt_media_corona{
+        margin-top: 90px !important;
     }
 }

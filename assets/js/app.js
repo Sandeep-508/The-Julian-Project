@@ -173,10 +173,10 @@ tab_open_btn_8.addEventListener("click", () => {
 let accordion = document.querySelectorAll(".accordion");
 let text_disp = document.querySelector(".disp_text");
 let svg_accord = document.querySelector(".svg_cont_accord");
-text_disp.style.display = "block";
-svg_accord.innerHTML = `<svg width="14" height="3" viewBox="0 0 14 3" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M13 2.5H8C8 2.5 8 2.5 7.9321 2.5C7.70711 2.5 8.26522 2.5 8 2.5C7.73478 2.5 7.70711 2.5 7.5 2.5C7 2.5 7 2.5 7 2.5H6H1C0.734784 2.5 0.48043 2.39464 0.292893 2.20711C0.105357 2.01957 0 1.76522 0 1.5C0 1.23478 0.105357 0.98043 0.292893 0.792893C0.48043 0.605357 0.734784 0.5 1 0.5H6H6.5C7 0.5 6.73478 0.503254 7 0.503254C7.26522 0.503254 6.5 0.503254 7 0.5C7 0.5 7.5 0.5 7.70711 0.5H8H13C13.2652 0.5 13.5196 0.605357 13.7071 0.792893C13.8946 0.98043 14 1.23478 14 1.5C14 1.76522 13.8946 2.01957 13.7071 2.20711C13.5196 2.39464 13.2652 2.5 13 2.5Z" fill="black"/>
-</svg>`;
+// text_disp.style.display = "block";
+// svg_accord.innerHTML = `<svg width="14" height="3" viewBox="0 0 14 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+// <path d="M13 2.5H8C8 2.5 8 2.5 7.9321 2.5C7.70711 2.5 8.26522 2.5 8 2.5C7.73478 2.5 7.70711 2.5 7.5 2.5C7 2.5 7 2.5 7 2.5H6H1C0.734784 2.5 0.48043 2.39464 0.292893 2.20711C0.105357 2.01957 0 1.76522 0 1.5C0 1.23478 0.105357 0.98043 0.292893 0.792893C0.48043 0.605357 0.734784 0.5 1 0.5H6H6.5C7 0.5 6.73478 0.503254 7 0.503254C7.26522 0.503254 6.5 0.503254 7 0.5C7 0.5 7.5 0.5 7.70711 0.5H8H13C13.2652 0.5 13.5196 0.605357 13.7071 0.792893C13.8946 0.98043 14 1.23478 14 1.5C14 1.76522 13.8946 2.01957 13.7071 2.20711C13.5196 2.39464 13.2652 2.5 13 2.5Z" fill="black"/>
+// </svg>`;
 
 accordion.forEach(accord_itm => {
     let accord_btn = accord_itm.querySelector(".btn_accord");
