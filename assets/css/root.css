@@ -20,7 +20,6 @@
     }
 
     .menuicon {
-        z-index: 5;
         margin-top: 10px;
     }
 
@@ -435,7 +434,14 @@
         padding-bottom: 24px !important;
     }
 
-    .mt_media_corona{
+    .mt_media_corona {
         margin-top: 90px !important;
+    }
+
+    .scroll_top,
+    .scroll_box {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 50% !important;
     }
 }
