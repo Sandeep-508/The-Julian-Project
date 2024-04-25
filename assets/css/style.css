@@ -1743,10 +1743,13 @@ ul {
 /* <----------------------------------------------------------- Preloader ----------------------------------------------------------------> */
 
 .loader {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     background-color: #E0B764;
     border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     position: fixed;
     box-shadow: 0 0 30px 4px rgba(0, 0, 0, 0.5) inset,
         0 5px 12px rgba(0, 0, 0, 0.15);
@@ -1763,17 +1766,19 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
+    transition: all 300ms linear;
 }
 
 .pos_title {
     position: relative;
-    top: -50px;
-    left: 30px;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .title_image {
-    width: 100px;
-    height: 50px;
+    width: 250px;
+    height: 150px;
 }
 
 .loader:before,
@@ -1794,45 +1799,10 @@ ul {
     animation: wave 5s linear infinite;
 }
 
-.loaders {
-    width: fit-content;
-    font-weight: bold;
-    font-family: monospace;
-    font-size: var(--fs-30);
-    color: #0000;
-    background: linear-gradient(90deg, #fff 25%, #eb9e04 0 50%, #E0B764 0 75%, #F4EAD8 0) 0 0/400% 100%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    margin-top: 200px;
-    margin-left: 60px;
-    animation: l10 5s infinite cubic-bezier(0.3, 1, 0, 1);
-}
-
-.loaders:before {
-    content: "The Julian Project..."
-}
-
 .-top-105 {
     top: -105%;
 }
 
-@keyframes l10 {
-    25% {
-        background-position: calc(1*100%/3) 0
-    }
-
-    50% {
-        background-position: calc(2*100%/3) 0
-    }
-
-    75% {
-        background-position: calc(3*100%/3) 0
-    }
-
-    100% {
-        background-position: calc(4*100%/3) 0
-    }
-}
 
 @keyframes wave {
     0% {
