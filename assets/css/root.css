@@ -237,6 +237,11 @@
     .mt_max_sm {
         margin-top: 12px !important;
     }
+
+    .loader {
+        width: 200px !important;
+        height: 200px !important;
+    }
 }
 
 @media (max-width: 1200px) {
