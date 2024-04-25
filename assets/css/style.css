@@ -798,6 +798,7 @@ a {
     /* max-width: 485px; */
     min-height: 128px;
     border-radius: 8px;
+    transition: all 300ms linear;
 }
 
 .svg_cont {
@@ -1042,11 +1043,29 @@ a {
 .prev {
     left: 0 !important;
     top: 50% !important;
+    border-radius: 50%;
 }
 
 .next {
     right: 0 !important;
     top: 50% !important;
+    border-radius: 50%;
+}
+
+.prev:hover {
+    background: var(--nav_btn_clr);
+}
+
+.prev:hover svg path {
+    stroke: var(--color-white) !important;
+}
+
+.next:hover {
+    background: var(--nav_btn_clr);
+}
+
+.next:hover svg path {
+    stroke: var(--color-white) !important;
 }
 
 .images_pos {
