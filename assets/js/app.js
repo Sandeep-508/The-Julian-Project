@@ -255,7 +255,8 @@ AOS.init({
 // preloader
 
 let preloader = document.querySelector(".preloader");
-body.style.overflow = "hidden";
+body.style.overflow = "auto";
+preloader.classList.add("d-none");
 setTimeout(() => {
     preloader.classList.add("-top-105");
     body.style.overflow = "auto";
