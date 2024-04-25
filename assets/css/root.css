@@ -120,6 +120,10 @@
     .ms_15px {
         margin-left: 15px;
     }
+
+    .pr_min_lg_70px {
+        padding-right: 70px;
+    }
 }
 
 @media (max-width: 768.9px) {
