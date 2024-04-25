@@ -260,3 +260,14 @@ setTimeout(() => {
     preloader.classList.add("-top-105");
     body.style.overflow = "auto";
 }, 3000);
+
+// comeback notification
+
+let title = document.title;
+window.addEventListener("blur", () => {
+    document.title = "Come back 😐";
+});
+
+window.addEventListener("focus", () => {
+    document.title = title;
+});
