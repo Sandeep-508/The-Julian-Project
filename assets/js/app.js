@@ -250,3 +250,13 @@ AOS.init({
     duration: 2000,
     once: true,
 });
+
+
+// preloader
+
+let preloader = document.querySelector(".preloader");
+body.style.overflow = "hidden";
+setTimeout(() => {
+    preloader.classList.add("-top-105");
+    body.style.overflow = "auto";
+}, 3000);

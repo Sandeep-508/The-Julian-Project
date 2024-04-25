@@ -360,6 +360,11 @@
         left: 180px !important;
     }
 
+    .loaders {
+        font-size: var(--fs-20) !important;
+        margin-left: 24px !important;
+    }
+
     .pro_section .min_h_media {
         min-height: 300px !important;
     }
