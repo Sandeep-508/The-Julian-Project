@@ -95,6 +95,11 @@
         background-size: cover !important;
         background-repeat: no-repeat !important;
     }
+
+    .mx_max_lg {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
 }
 
 
