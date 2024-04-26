@@ -1802,6 +1802,10 @@ ul {
     animation: wave 5s linear infinite;
 }
 
+.z-50 {
+    z-index: 50;
+}
+
 .-top-105 {
     top: -105%;
 }
