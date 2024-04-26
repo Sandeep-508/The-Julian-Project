@@ -463,4 +463,8 @@
         height: 30px !important;
         border-radius: 50% !important;
     }
+
+    .ml_12px_max_sm {
+        margin-left: 12px;
+    }
 }
