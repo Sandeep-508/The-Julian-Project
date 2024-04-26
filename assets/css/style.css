@@ -1310,6 +1310,11 @@ a {
     position: relative;
 }
 
+.cube_pos_tab {
+    right: 0;
+    top: 0;
+}
+
 .tabs.appear::after {
     content: "";
     position: absolute;
